@@ -8,9 +8,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./../css/style.css">
-    <link rel="stylesheet" href="./../css/review.css">
+    <link rel="stylesheet" href="./../css/contact.css">
 </head>
 <body id="body">
+    <!--Header start-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid  custom-navbar">
           <a class="navbar-brand sedan-sc-regular custom-navbar-brand " href="#"  >Palavi Beauty Parlour</a>
@@ -31,7 +32,52 @@
           </div>
         </div>
       </nav>
-    
+     <!--Header end-->
+    <!--main-body start-->
+    <div class="main-d">
+        <div class="submain-d1 lato-bold-italic">
+            <div class="d">
+                <img src="./../logo/road.png" class="contact-logo"/>
+                <p class="info">Address :&nbsp;A/p velapur<br/> Near hodge gift house,in front of Ram Mandir </p>
+            </div>
+            <div class="d">
+                <img src="./../logo/call.png" class="contact-logo"/>
+                <p class="info">Phone :<a href="tel:9420939808" target="_blank" class="datail">&nbsp;&nbsp; +91 9420939808</a></p>
+            </div>
+            <div class="d">
+                <img src="./../logo/email.png" class="contact-logo"/>
+                <p class="info">Phone :<a href="mailto:palavibeauty@gmail.com" target="_blank" class="datail">&nbsp;&nbsp;palavibeauty@gmail.com</a></p>
+            </div>
+            <div class="d">
+                <img src="./../logo/instagram.png" class="contact-logo"/>
+                <p class="info">Social Media :<a href="https://www.instagram.com/palavi_beautylife91?igsh=OWh2bHpkcnNiNmpw" target="_blank" class="datail">&nbsp;&nbsp;@palavi_beautylife91</a></p>
+            </div>
+        </div>
+        <div class="submain-d2">
+            <div class="d2">
+                <h2 class="sedan-sc-regular pg-heading">Contact Details</h2>
+                <form class="lato-bold-italic">
+                    <label for="name" class="Head1">Enter Full Name:</label>&nbsp;&nbsp; 
+                    <input class="input" type="text" id="name" placeholder="Enter your Name" required/><br/>      
+
+                    <label for="address" class="Head1">Enter Address:</label>&nbsp;&nbsp;&nbsp;
+                    <input class="input" type="email" id="address" placeholder="Enter address" required/><br/> 
+
+                    <label for="subject" class="Head1">Enter Subject:</label> &nbsp;&nbsp;&nbsp;
+                    <input class="input" type="text" id="subject" placeholder="Enter subject" required/> 
+
+                    <label for="message" class="Head2">Message:</label><br/>
+                    <textarea class="ta" rows="2" cols="15" required></textarea><br/>
+
+                    <button id="enquireBtn" onclick="enquiry()">Submit</button>
+            </div>
+            <div>
+                <img src="./../img/girl-with-flower.jpg" class="image"/>
+            </div>
+        </div>
+    </div>
+    <!--main-body end-->
+    <!--footer start-->
       <footer class="footr">
         <div class="f">
             We have completed 10+ events in Maharashtra
@@ -66,8 +112,8 @@
             Copyright &copy; All Rights Reserved to RJ.
         </div>
     </footer>
-
+    <!--footer end-->
   <script src="./../js/script.js"></script> 
-  <script src="./../js/review.js"></script> 
+  <script src="./../js/contact.js"></script> 
 </body>
 </html>

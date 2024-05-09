@@ -1,0 +1,81 @@
+.main-d{
+  margin-bottom: 40px;
+}
+.submain-d1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.contact-logo{
+    height: 50px ;
+    background-color: #FFE5E6;
+    border-radius: 10px ;
+    padding: 8px;
+}
+.datail{
+    text-decoration: none;
+    color: black;
+}
+.info{
+    width: 300px;
+    font-size: 15px;
+}
+.d{
+    margin: 20px;
+}
+.submain-d2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    background-color: #FFE5E6;
+    width: 850px;
+    margin-left: 320px;
+}
+.d2{
+    margin: 10px 50px;
+   
+}
+.Head1{
+    text-align: center;
+    align-items: start;
+    padding-top: 20px ;
+    padding-bottom: 20px
+}
+.pg-heading{
+    font-size: 34px;
+}
+.input{
+    width: 300px;
+}
+.Head2{
+    padding-top: 20px;
+}
+
+
+.ta{
+    margin-left: 20px;
+    padding-left: 70px;
+}
+#enquireBtn{
+    margin: 35px 60px;
+    width: 70%;
+	height: 40px;
+	justify-content: center;
+	display: block;
+	color: white;
+	background:#A62C31;
+	font-size: 1em;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+    border-radius: 20px;
+}
+.image{
+    height: 620px;
+}

@@ -1,4 +1,4 @@
 function login() {
-    document.getElementById("loginBtn").addEventListener("click", login);
+    document.getElementById("loginBtn");
     alert("You have successfully logged in!");
-    }
+}
