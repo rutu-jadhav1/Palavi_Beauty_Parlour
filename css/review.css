@@ -1,0 +1,64 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    margin: 30px ;
+}
+.container {
+     display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+    
+.card {
+    max-width: 33rem;
+    background-color:#FFE5E6;
+    margin: 50px auto;
+    margin-bottom: 110px;
+    margin-top: 25px;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px rgb(86, 85, 85);
+    width: 100%;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+#rating{
+    text-align: center;
+}
+    
+.star {
+    height: 70px;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+        
+.ta{
+    padding: 20px 100px;
+    margin: 20px;
+}
+.review_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight:bold;       
+}
+        
+.sbtn{
+    font-size: 30px ;
+    padding: 5px 30px;
+    margin: 25px;
+    border: none;
+    background:#A62C31;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
