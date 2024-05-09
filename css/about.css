@@ -35,3 +35,27 @@
     border: 13px solid #ece6e7;
     box-shadow: 0 0 10px 2px #bab9ba ;
 }
+.review-container{
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 450px;
+    background-color: #FFE5E6;
+    padding: 25px;
+}
+.review-logo{
+    height: 50px;
+    margin-left: 700px;
+}
+.customer-name{
+    margin-left: 420px;
+}
+.btn-container{
+    width: 250px;
+    margin-left: 650px;
+    padding-bottom: 20px;
+   padding-left: 50px;
+    
+}
+.review-circle{
+    height: 20px;
+}
