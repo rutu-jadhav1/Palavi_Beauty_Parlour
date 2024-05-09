@@ -23,11 +23,12 @@
     box-shadow: 0px 8px 16px 0px #b7b5b5;
     margin-top: 50px;
 }
-.container h1 {
+.formcontainer h1 {
     margin-bottom: 2rem;
-    font-size: xx-large;
+    font-size: 32px;
+    font-weight: bold;
 }
- form {
+form {
     display: flex;
     justify-content: center;
     flex-direction: column;

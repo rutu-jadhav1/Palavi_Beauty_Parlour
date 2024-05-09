@@ -26,7 +26,11 @@
     margin-top: 170px;
     
 }
-
+.formcontainer h1 {
+    margin-bottom: 2rem;
+    font-size: 32px;
+    font-weight: bold;
+}
 .heading{
     text-align: center;
 }
