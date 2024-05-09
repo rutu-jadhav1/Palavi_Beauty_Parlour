@@ -38,7 +38,7 @@
     padding-top: 8px;
 }
 .dark{
-    background-color: black;
+    background-color: rgb(99, 99, 99);
     color: white;
 }
 .light{
@@ -56,7 +56,7 @@
 
 
 .footr{
-    width: 1500px;
+    width: 1516px;
 }
 .f{
     background-color: #FEB6B6;

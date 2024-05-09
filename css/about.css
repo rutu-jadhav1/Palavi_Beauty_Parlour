@@ -1,0 +1,42 @@
+.page-heading{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 10px;
+}
+.main-body{
+    display: flex;
+    flex-direction: row; 
+    width: 1000px;
+    margin-left: 250px;
+}
+
+.about-d{
+    width: 800px;
+    padding: 5px;
+}
+.detail2{
+    text-align: justify;
+    align-items: center;
+    margin-top: 60px;
+    padding-right:  15px;
+}
+.parlour-img{
+   width: 380px;
+   margin-top: 20px;
+   padding-left: 10px;
+   border: 8px solid #ece6e7;
+   box-shadow: 0 0 10px 2px #bab9ba ;
+}
+.about-image{
+    width: 600px;
+    position: relative;
+    left: 14%;
+    margin:25px 15px;
+}
+.about-im{
+    height:450px ;
+    width: 950px;
+    border: 13px solid #ece6e7;
+    box-shadow: 0 0 10px 2px #bab9ba ;
+    margin: 30px;
+}
