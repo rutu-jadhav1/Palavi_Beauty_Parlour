@@ -14,12 +14,16 @@
     font-style: italic;
     font-size: 18px;
 }
-
+*{
+   
+}
 body{
     background-color: #f7f6f6;
 }
-.custom-navbar{
+
+.navbar{
     background-color: #FEB6B6;
+    height: 45px;
 }
 .custom-navbar-brand {
     padding-left: 10px;

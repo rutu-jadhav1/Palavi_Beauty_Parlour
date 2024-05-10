@@ -3,6 +3,7 @@ body{
 }
 .main-d{
   margin-bottom: 60px;
+ 
 }
 .submain-d1{
     display: flex;
@@ -10,6 +11,7 @@ body{
     text-align: center;
     align-items: center;
     margin-left: 50px;
+   
 }
 .contact-logo{
     height: 50px ;
@@ -26,7 +28,7 @@ body{
     font-size: 15px;
 }
 .d{
-    margin: 20px;
+    margin: 80px 20px;
 }
 .submain-d2{
     display: flex;
