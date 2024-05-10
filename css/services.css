@@ -16,6 +16,7 @@ body{
 .service-card{
     margin-left:70px;
     margin-top: 30px;
+    margin-bottom: 70px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -37,4 +38,7 @@ body{
 	transition: .2s ease-in;
 	cursor: pointer;
     border-radius: 20px;
+}
+.sub-page{
+    text-decoration: none;
 }
