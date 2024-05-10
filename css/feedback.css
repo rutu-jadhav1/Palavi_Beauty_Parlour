@@ -1,3 +1,6 @@
+body{
+    background-color: #f7f6f6;
+}
 .reviewbody{
     display: flex;
     flex-direction: column;

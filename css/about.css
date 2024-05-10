@@ -1,3 +1,6 @@
+body{
+    background-color: #f7f6f6;
+}
 .page-heading{
     text-align: center;
     font-size: 32px;
@@ -30,7 +33,7 @@
 }
 
 .slide-img{
-  
+
     width: 980px;
     margin: 50px 260px;
     border: 13px solid #ece6e7;

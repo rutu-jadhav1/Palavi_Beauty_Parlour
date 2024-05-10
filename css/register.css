@@ -1,4 +1,6 @@
-
+body{
+    background-color: #f7f6f6;
+}
 .formbody {
     width: 100%;
     height: 100vh;
