@@ -1,7 +1,40 @@
+.img-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+#mainProductImage{
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 450px;
+    margin-top: 60px;
+    display: block;
+}
+.product-Images-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+.product-image{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border: 1px solid #A62C31;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
 .page-heading{
     text-align: center;
     font-size: 32px;
-    margin-top: 80px;
+    margin-top: 120px;
     margin-left: 60px;
 }
 .apointment-d{

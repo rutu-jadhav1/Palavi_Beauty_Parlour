@@ -10,8 +10,7 @@ body{
 .service-container{
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 200px;
-   
+    margin: 10px 200px;  
 }
 .service-card{
     margin-left:70px;

@@ -34,34 +34,44 @@
       </nav>
      <!--Header end-->
      <!--main-body start-->
+     <div class="img-div">
+        <div>
+          <img src="./../img/herbal.jpg" id="mainProductImage"/>
+        </div>
+        <div class="product-Images-Container">
+          <img src="./../img/Fruit-facial.jpg" class="product-image" onclick="changeImage('./../img/Fruit-facial.jpg')"/>
+          <img src="./../img/Gold-facial-768x358.jpg" class="product-image" onclick="changeImage('./../img/Gold-facial-768x358.jpg')"/>
+          <img src="./../img/Chocolate-facial.jpg" class="product-image" onclick="changeImage('./../img/Chocolate-facial.jpg')"/>
+        </div>
+    </div>
      <p class="sedan-sc-regular page-heading">Book an Appoinment</p>
      <div class="apointment-d lato-bold-italic">
         <form>
             <div class="mb-3">
                 <label for="formGroupExampleInput" class="form-label">Full Name </label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full Name">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full Name" required>
             </div>
             <div class="mb-3">
                 <label for="formGroupExampleInput2" class="form-label">Phone Number</label>
-                <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Phone Number">
+                <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Phone Number" required>
             </div>
             <div class="mb-3">
                 <label for="formGroupExampleInput3" class="form-label">E-mail Address</label>
-                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="E-mail Address">
+                <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="E-mail Address" required>
             </div>
             <div class="row g-3">
                 <div class="col">
                     <label for="formGroupExampleInput4" class="form-label">Date</label>
-                    <input type="date" class="form-control" >
+                    <input type="date" class="form-control" required>
                 </div>
                     <div class="col">
                         <label for="formGroupExampleInput5" class="form-label">Time</label>
-                        <input type="time" class="form-control">
+                        <input type="time" class="form-control" required>
                     </div>
             </div><br/>
             <div class="mb-3">
                 <label for="inputState" class="form-label">Type of Bleech</label>
-                    <select id="inputState" class="form-select">
+                    <select id="inputState" class="form-select" required>
                       <option selected>Fruit Bleech (Price : 130 ₹)</option>
                       <option>Diamond Bleech (Price : 150 ₹)</option>
                       <option>Gold Bleech (Price : 150 ₹)</option>
@@ -70,7 +80,7 @@
                       <option>Oxy Glow Bleech (Price : 200 ₹)</option>
                     </select>
             </div>
-            <button id="bookBtn" >Submit</button>
+            <button id="bookBtn" onclick="bookbtn()">Submit</button>
         </form>
      </div>
      <!--main-body end-->
@@ -118,7 +128,7 @@
     </footer>
     <!--footer end-->
   <script src="./../js/script.js"></script> 
-  <script src="./../js/about.js"></script> 
+  <script src="./../js/bleech.js"></script> 
 </body>
 </html>
     
