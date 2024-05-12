@@ -2,7 +2,7 @@ body{
     background-color: #f7f6f6;
 }
 .main-container{
-    margin-top: 80px;
+    margin-top: 35px;
     margin-bottom: 600px;
 }
 .Body-section{
@@ -21,20 +21,21 @@ body{
 .btn{
     font-size: 22px ;
     padding: 5px 30px;
-    margin: 22px;
+    margin: 25px;
     border: none;
     background:#A62C31;
     color: white;
     border-radius: 50px;
     cursor: pointer;
 }
+
 .im{
     border-radius: 10px;
 }
 .section2-heading{
     text-align: center;
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 34px;
 }
 .section2-text{
     margin-left: 420px;
@@ -61,4 +62,19 @@ body{
 }
 .skin-im{
     width: 250px;
+}
+.Body-section3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    margin-top: 140px;
+}
+.section3{
+   padding: 30px 0;
+}
+.section3-text{
+    margin-top: 50px;
+    margin-left: 50px ;
+    text-align: start;
+    width: 700px;
 }
