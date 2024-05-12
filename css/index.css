@@ -3,7 +3,6 @@ body{
 }
 .main-container{
     margin-top: 35px;
-    margin-bottom: 600px;
 }
 .Body-section{
     display: flex;
@@ -77,4 +76,17 @@ body{
     margin-left: 50px ;
     text-align: start;
     width: 700px;
+}
+.section4-sub{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.section4-d{
+    margin: 20px 30px;
+}
+.img4{
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
