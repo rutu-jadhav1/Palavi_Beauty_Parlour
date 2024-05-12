@@ -30,3 +30,34 @@ body{
 .im{
     border-radius: 10px;
 }
+.section2-heading{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.section2-text{
+    margin-left: 420px;
+    text-align: center;
+    width: 700px;
+}
+.section2{
+    margin-top: 40px;
+}
+.section2-img{
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.img{
+    height: 250px;
+    margin: 10px 30px;
+    border-radius: 10px;
+}
+.section2-sub{
+    display: flex;
+    flex-direction: column;
+}
+.skin-im{
+    width: 250px;
+}
