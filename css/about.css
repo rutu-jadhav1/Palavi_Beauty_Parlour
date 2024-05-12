@@ -47,19 +47,25 @@ body{
     padding: 25px;
 }
 .review-logo{
-    height: 50px;
+    height: 70px;
     margin-left: 710px;
+    background-color: #FFE5E6;
+    padding: 10px;
+    border-radius: 8px;
 }
 .customer-name{
     margin-left: 420px;
 }
 .btn-container{
     width: 250px;
-    margin-left: 650px;
+    margin-left: 662px;
+    margin-top: 7px;
     padding-bottom: 20px;
-   padding-left: 50px;
+    padding-left: 50px;
     
 }
 .review-circle{
     height: 20px;
+    background-color: #FFE5E6;
+    border-radius: 8px;
 }
