@@ -1,0 +1,32 @@
+body{
+    background-color: #f7f6f6;
+}
+.main-container{
+    margin-top: 80px;
+    margin-bottom: 600px;
+}
+.Body-section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.section1{
+    width: 900px;
+    padding: 5px;
+}
+.section1-text{
+    padding: 150px 30px;
+}
+.btn{
+    font-size: 22px ;
+    padding: 5px 30px;
+    margin: 22px;
+    border: none;
+    background:#A62C31;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.im{
+    border-radius: 10px;
+}
