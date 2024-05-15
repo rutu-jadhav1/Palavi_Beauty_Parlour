@@ -22,15 +22,14 @@ body{
     font-size: 22px ;
     padding: 5px 30px;
     margin: 25px;
-    border: none;
-    background-color:#A62C31;
+    border: none;    
     color: white;
+    background-color:#A62C31;
     border-radius: 50px;
   
 }
 .appoinment-link{
     text-decoration: none;
-    color: white;
 }
 .im{
     border-radius: 10px;
