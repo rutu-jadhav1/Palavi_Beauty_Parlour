@@ -21,7 +21,7 @@ body{
 }
 .datail{
     text-decoration: none;
-    color: black;
+    
 }
 .info{
     width: 300px;
@@ -41,7 +41,7 @@ body{
 }
 .d2{
     margin: 10px 50px;
-   
+    color: black;
 }
 .Head1{
     text-align: center;
