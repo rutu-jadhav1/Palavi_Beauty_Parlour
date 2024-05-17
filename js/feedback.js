@@ -51,5 +51,5 @@ function star(n)
     }
 
 function submit(){
-    alert("Do you want to conform Submit feedback ?");
+    alert("Do you want to confirm Submit feedback ?");
 }
