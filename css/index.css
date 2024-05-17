@@ -245,3 +245,47 @@ body{
         margin-left: 65px;
     }
 }
+@media (min-width: 768px) and (max-width: 992px){
+    .section1-text{
+        padding: 15px 10px;
+    }
+    .section1{
+        width: 400px;
+        padding: 5px;
+    }
+    .im{
+        height: 420px;
+    }
+    .section2-img{
+        margin-left: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .img-name{
+        padding-right: 10px;
+        margin-bottom: 20px;
+    }
+    .section2-text{
+        margin-left: 60px;
+        text-align: center;
+        width: 500px;
+    }
+    .Body-section3{
+        padding-left: 50px;
+        margin-top: 140px;
+    }
+    .section3-text{
+        margin-top: 20px;
+        margin-left: 50px ;
+        text-align: start;
+        width: 350px;
+    }
+    .section4-sub{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .section4-d{
+        margin: 20px 5px;
+    }
+}
