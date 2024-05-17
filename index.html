@@ -53,7 +53,9 @@
       <div class="section2">
         <div class="section2-img">
           <div class="section2-sub">
-            <div><img src="./img/makeup.jpg" class="img"/></div>
+            <div><img src="./img/makeup.jpg" class="img" onclick="show('image-js')"/>
+              <div id="image-js"><img src="./img/makeup.jpg" /></div>
+            </div>
             <div class="lato-bold-italic" style="text-align: center; margin-top:10px">Makeup</div>
           </div>
           <div class="section2-sub">
@@ -86,6 +88,12 @@
             <div> <img src="./img/skin spa.jpg" class="img skin-im"/></div>
             <div class="lato-bold-italic " style="text-align: center;  margin-top:10px">Spa</div>
           </div>
+        </div>
+      </div>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <div id="modal-content"></div>
         </div>
       </div>
 
@@ -162,5 +170,6 @@
     </footer>
  <!--footer end-->
   <script src="./js/script.js"></script>    
+  <script src="./js/index.js"></script>    
 </body>
 </html>
