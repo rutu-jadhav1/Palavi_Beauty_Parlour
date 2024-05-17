@@ -127,14 +127,32 @@
       <p class="lato-bold-italic section2-text">Here’s a quick look at the beauty transformations that we have worked on. Whether it is a temporary makeup or a complete makeover, you can trust us.</p>
       <div class="section4">
         <div class="section4-sub">
-          <div class="section4-d"><img src="./img/Makeup1.jpeg" class="img4"/></div>
-          <div class="section4-d"><img src="./img/Makeup3.jpeg" class="img4"/></div>
-          <div class="section4-d"><img src="./img/Makeup2.jpeg" class="img4"/></div>
+          <div class="section4-d"><img src="./img/Makeup1.jpeg" class="img4" onclick="showWork('work1')"/>
+            <div id="work1"><img src="./img/Makeup1.jpeg" style="width: 750px;"/></div>
+          </div>
+          <div class="section4-d"><img src="./img/Makeup3.jpeg" class="img4" onclick="showWork('work2')"/>
+            <div id="work2"><img src="./img/Makeup3.jpeg" style="width: 750px;"/></div>
+          </div>
+          <div class="section4-d"><img src="./img/Makeup2.jpeg" class="img4" onclick="showWork('work3')"/>
+            <div id="work3"><img src="./img/Makeup2.jpeg" style="width: 750px;"/></div>
+          </div>
         </div>
         <div class="section4-sub">
-          <div class="section4-d"><img src="./img/Makeup5.jpeg" class="img4"/></div>
-          <div class="section4-d"><img src="./img/Makeup4.jpeg" class="img4"/></div>
-          <div class="section4-d"><img src="./img/me-1.jpeg" class="img4"/></div>
+          <div class="section4-d"><img src="./img/Makeup5.jpeg" class="img4" onclick="showWork('work4')"/>
+            <div id="work4"><img src="./img/Makeup5.jpeg" style="width: 750px;"/></div>
+          </div>
+          <div class="section4-d"><img src="./img/Makeup4.jpeg" class="img4" onclick="showWork('work5')"/>
+            <div id="work5"><img src="./img/Makeup4.jpeg" style="width: 750px;"/></div>
+          </div>
+          <div class="section4-d"><img src="./img/me-1.jpeg" class="img4" onclick="showWork('work6')"/>
+            <div id="work6"><img src="./img/me-1.jpeg" style="width: 750px;"/></div>
+          </div>
+        </div>
+      </div>
+      <div id="myModal1" class="modal1">
+        <div class="modal-content1">
+          <span class="close1" onclick="closeModal1()">&times;</span>
+          <div id="modal-content1"></div>
         </div>
       </div>
    
