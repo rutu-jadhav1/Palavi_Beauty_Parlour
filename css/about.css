@@ -33,7 +33,6 @@ body{
 }
 
 .slide-img{
-
     width: 980px;
     margin: 50px 260px;
     border: 13px solid #ece6e7;
@@ -63,10 +62,66 @@ body{
     margin-top: 7px;
     padding-bottom: 20px;
     padding-left: 50px;
-    
 }
 .review-circle{
     height: 20px;
     background-color: #FFE5E6;
     border-radius: 8px;
+}
+
+
+@media (min-width: 500px) and (max-width: 768px){ 
+    .main-body{
+        display: flex;
+        flex-direction: column; 
+        width: 500px;
+        margin-left: 50px;
+    }
+    .about-d{
+        width: 420px;
+        margin-left: 70px;
+    }
+    .slide-img{
+        width: 500px;
+        margin: 50px 70px;
+    }
+    .review-container{
+        width: 500px;
+        margin-left: 70px;
+        padding: 25px;
+    }
+    .review-logo{
+        margin-left: 290px;
+        padding: 10px;
+    }
+    .btn-container{
+        margin-left: 240px;
+       
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .main-body{
+        margin-left: 1px;
+    }
+    .about-d{
+        width: 420px;
+        margin-left: 25px;
+    }
+    .slide-img{
+        width: 650px;
+        margin: 50px 170px;
+    }
+    .review-container{
+        width: 600px;
+        margin-left: 200px;
+        padding: 25px;
+    }
+    .review-logo{
+        margin-left: 440px;
+        padding: 10px;
+    }
+    .btn-container{
+        margin-left: 400px;
+       
+    }
 }
