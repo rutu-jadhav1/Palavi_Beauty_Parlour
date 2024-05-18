@@ -1,3 +1,4 @@
+alert('This page gives About-Us Information..!');
 function toggleReview(state){
     const reviewElement = document.getElementById("1text");
     if(state =='1'){

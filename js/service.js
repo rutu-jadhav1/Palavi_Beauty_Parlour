@@ -1,0 +1,1 @@
+alert('This page shows Services provided by us...!');
