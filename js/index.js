@@ -1,3 +1,5 @@
+alert('Welcome to Palavi Beauty Parlour Web..!');
+
 function show(id){
     let receiptContent = document.getElementById(id);
     let modalcontent = document.getElementById('modal-content');
