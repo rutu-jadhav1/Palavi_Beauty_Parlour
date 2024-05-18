@@ -141,3 +141,29 @@ body{
     margin-left: -10px;
     margin-right: -10px;
 }
+
+
+@media (min-width: 500px) and (max-width: 768px){ 
+    .footr{
+        width: 622px;
+    }
+    .ft{
+        display: flex;
+        flex-direction: column;
+    }
+    .address{
+        margin-top: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .footr{
+        width: 850px;
+    }
+    .ft{
+        display: flex;
+        flex-direction: column;
+    }
+    .address{
+        margin-top: 20px;
+    }
+}
