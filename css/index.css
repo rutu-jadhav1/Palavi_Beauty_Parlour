@@ -85,10 +85,11 @@ body{
 .section4-sub{
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
+    margin-left: 300px;
+    margin-bottom: 20px;
 }
 .section4-d{
-    margin: 20px 30px;
+    margin: 20px 80px;
 }
 .img4{
     height: 400px;
@@ -148,22 +149,22 @@ body{
     top: -1px;
     right: 10px;
 }
-#work1{
+#image-js8{
     display: none;
 }
-#work2{
+#image-js9{
     display: none;
 }
-#work3{
+#image-js10{
     display: none;
 }
-#work4{
+#image-js11{
     display: none;
 }
-#work5{
+#image-js12{
     display: none;
 }
-#work6{
+#image-js13{
     display: none;
 }
 .modal1{
